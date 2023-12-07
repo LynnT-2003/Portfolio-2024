@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 import { usePathname } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Nav from "./nav";
+import Nav from "./Nav";
 import gsap from "gsap";
 
 export default function index() {
