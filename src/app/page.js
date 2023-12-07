@@ -2,7 +2,7 @@
 import styles from "./page.module.css";
 import { useState } from "react";
 import Project from "../components/Project";
-import Landing from "./Landing/Page";
+import Landing from "../components/Landing";
 import Modal from "../components/Modal";
 import Description from "../components/Description";
 import SlidingImages from "../components/SlidingImages";

@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
-import styles from "../page.module.css";
+import styles from "./page.module.css";
 import { useRef, useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
-import Project from "../../components/Project";
+import Project from "../Project";
 
 export default function Home() {
   const firstText = useRef(null);
