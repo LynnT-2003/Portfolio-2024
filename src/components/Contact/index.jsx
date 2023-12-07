@@ -46,9 +46,6 @@ export default function index() {
           <div className={styles.button}>
             <p>cpunk@edgerunners.com</p>
           </div>
-          <div className={styles.button}>
-            <p>+31 6 27 84 74 30</p>
-          </div>
         </div>
         <div className={styles.info}>
           <div>
