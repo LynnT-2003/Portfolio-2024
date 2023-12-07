@@ -6,38 +6,38 @@ import Image from "next/image";
 const slider1 = [
   {
     color: "#e3e5e7",
-    src: "gif1.gif",
+    src: "rebeccadavid.gif",
   },
   {
     color: "#d6d7dc",
-    src: "moon.png",
+    src: "lucyeyes.gif",
   },
   {
     color: "#e3e3e3",
-    src: "police.jpg",
+    src: "gif1.gif",
   },
   {
     color: "#21242b",
-    src: "rebec.jpg",
+    src: "sandy.gif",
   },
 ];
 
 const slider2 = [
   {
     color: "#d4e3ec",
-    src: "rebec.jpg",
+    src: "rebecca.gif",
   },
   {
     color: "#e5e0e1",
-    src: "police.jpg",
+    src: "rd.gif",
   },
   {
     color: "#d7d4cf",
-    src: "moon.png",
+    src: "lucyeyes2.gif",
   },
   {
     color: "#e1dad6",
-    src: "lucy.png",
+    src: "adamsmash.gif",
   },
 ];
 
