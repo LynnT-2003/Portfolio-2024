@@ -1,12 +1,12 @@
 "use client";
 import styles from "./page.module.css";
 import { useState } from "react";
-import Project from "../components/project";
-import Landing from "./Landing/page";
-import Modal from "../components/modal";
-import Description from "../components/description";
-import SlidingImages from "../components/slidingImages";
-import Contact from "../components/contact";
+import Project from "../components/Project";
+import Landing from "./Landing/Page";
+import Modal from "../components/Modal";
+import Description from "../components/Description";
+import SlidingImages from "../components/SlidingImages";
+import Contact from "../components/Contact";
 
 const projects = [
   {
