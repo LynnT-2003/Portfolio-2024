@@ -26,7 +26,11 @@ export default function index() {
             );
           })}
         </p>
-        <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>
+        <motion.p
+          style={{ marginTop: "40px" }}
+          variants={opacity}
+          animate={isInView ? "open" : "closed"}
+        >
           I ain't normal. You said so yourself before. I'm different. I am. You
           just don't get it.
         </motion.p>

@@ -1,8 +1,8 @@
 .description{
   padding-left: 200px;
   padding-right: 200px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 70px;
   display: flex;
   justify-content: center;
   .body{
@@ -11,18 +11,17 @@
       gap: 50px;
       position: relative;
       p{
-          margin: 0px;
           &:nth-of-type(1){
               font-size: 36px;
               gap: 8px;
               line-height: 1.3;
               span{
                   margin-right: 3px;
+                  display: inline-block; 
               }
               .mask{
                   position: relative;
                   overflow: hidden;
-                  display: inline-flex;
               }
           }
           &:nth-of-type(2){

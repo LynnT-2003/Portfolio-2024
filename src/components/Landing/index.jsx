@@ -80,7 +80,7 @@ export default function Home() {
   return (
     <>
       <main className={styles.main}>
-        <Image src="/lucy.png" fill={true} alt="background" />
+        <Image src="/lynn.png" fill={true} alt="background" />
         <div className={styles.sliderContainer}>
           <div ref={slider} className={styles.slider}>
             <p ref={firstText}>Autism Developer -</p>
