@@ -50,8 +50,8 @@ export default function Home() {
               />
             );
           })}
+          <Modal modal={modal} projects={projects} />
         </div>
-        <Modal modal={modal} projects={projects} />
       </main>
       <SlidingImages />
       <Contact />
