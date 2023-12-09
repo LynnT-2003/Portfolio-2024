@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { slideUp, opacity } from "./anim";
 export default function index() {
   const phrase =
-    "I didn't want any of this. Didn't want you to die. You never had to save me. All I ever wanted was for you to live.";
+    "A Computer Science student, focused on learning new skills and expanding my expertise.";
   const description = useRef(null);
   const isInView = useInView(description);
   return (
@@ -31,8 +31,8 @@ export default function index() {
           variants={opacity}
           animate={isInView ? "open" : "closed"}
         >
-          I ain't normal. You said so yourself before. I'm different. I am. You
-          just don't get it.
+          The combination of my passion for design, code & interaction positions
+          me in a unique place in the web design world.
         </motion.p>
         {/* <div data-scroll data-scroll-speed={0.1}>
           <div className={styles.button}>

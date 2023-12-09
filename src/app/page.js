@@ -10,19 +10,19 @@ import Contact from "../components/Contact";
 
 const projects = [
   {
-    title: "Web Dev",
+    title: "Web Application",
     src: "lucy.png",
     color: "#000000",
   },
   {
-    title: "Android Dev",
-    src: "rebec.jpg",
-    color: "#8C8C8C",
-  },
-  {
-    title: "Data Analytics",
+    title: "Data Mining",
     src: "police.jpg",
     color: "#EFE8D3",
+  },
+  {
+    title: "Big Data Analytics",
+    src: "rebec.jpg",
+    color: "#8C8C8C",
   },
   {
     title: "Machine Learning",

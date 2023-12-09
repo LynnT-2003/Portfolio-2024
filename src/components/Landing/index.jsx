@@ -12,7 +12,7 @@ export default function Home() {
   const secondText = useRef(null);
   const slider = useRef(null);
   let xPercent = 0;
-  let direction = -1;
+  let direction = 1;
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -38,7 +38,7 @@ export default function Home() {
     gsap.set(firstText.current, { xPercent: xPercent });
     gsap.set(secondText.current, { xPercent: xPercent });
     requestAnimationFrame(animate);
-    xPercent += 0.1 * direction;
+    xPercent += 0.075 * direction;
   };
 
   const projects = [
@@ -83,8 +83,8 @@ export default function Home() {
         <Image src="/lynn.png" fill={true} alt="background" />
         <div className={styles.sliderContainer}>
           <div ref={slider} className={styles.slider}>
-            <p ref={firstText}>Autism Developer -</p>
-            <p ref={secondText}>Autism Developer -</p>
+            <p ref={firstText}>Lynn Thit Nyi Nyi -</p>
+            <p ref={secondText}>Lynn Thit Nyi Nyi -</p>
           </div>
         </div>
 
