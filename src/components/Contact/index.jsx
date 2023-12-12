@@ -68,7 +68,13 @@ export default function index() {
           <div>
             <span>
               <h3>socials</h3>
-              <p>GitHub</p>
+              <p
+                onClick={() =>
+                  window.open("https://github.com/LynnT-2003", "_blank")
+                }
+              >
+                GitHub
+              </p>
             </span>
             <p>Instagram</p>
             <p>Dribbble</p>
