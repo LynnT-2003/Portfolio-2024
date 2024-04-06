@@ -2,7 +2,7 @@
 import React from "react";
 import styles from "./style.module.css";
 
-export default function index({ index, title, setModal }) {
+export default function index({ index, title, subtitle, setModal }) {
   return (
     <div
       onMouseEnter={() => {
@@ -14,7 +14,7 @@ export default function index({ index, title, setModal }) {
       className={styles.project}
     >
       <h2>{title}</h2>
-      <p>VMS Self-Study Project</p>
+      <p>{subtitle}</p>
     </div>
   );
 }

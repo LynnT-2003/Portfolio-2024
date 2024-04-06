@@ -12,22 +12,26 @@ import Preloader from "../components/Preloader";
 
 const projects = [
   {
-    title: "Web Application",
+    title: "TBH-Chatbot Web App",
+    subtitle: "University Senior Project",
     src: "lucy.png",
     color: "#000000",
   },
   {
-    title: "Data Mining",
+    title: "TutorPlus Mobile App",
+    subtitle: "University D*Code Project",
     src: "police.jpg",
     color: "#EFE8D3",
   },
   {
-    title: "Big Data Analytics",
+    title: "Fullstack E-Commerce ",
+    subtitle: "First Summer Web Project",
     src: "rebec.jpg",
     color: "#8C8C8C",
   },
   {
-    title: "Machine Learning",
+    title: "Lynnime AnimeList",
+    subtitle: "First Android Application",
     src: "moon.png",
     color: "#706D63",
   },
@@ -68,13 +72,14 @@ export default function Home() {
               <Project
                 index={index}
                 title={project.title}
+                subtitle={project.subtitle}
                 setModal={setModal}
                 key={index}
               />
             );
           })}
-          <Modal modal={modal} projects={projects} />
         </div>
+        <Modal modal={modal} projects={projects} />
       </main>
       <SlidingImages />
       <Contact />
