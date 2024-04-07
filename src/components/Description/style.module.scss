@@ -1,10 +1,27 @@
+.about{
+    background-color: #101010;
+    color: white;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 80px;
+
+    h1 {
+        margin: 0;
+        margin-left: 12px;
+        font-size: 5em;
+        font-weight: 200;
+    }
+}
+
 .description{
-  padding-left: 200px;
-  padding-right: 200px;
-  margin-top: 80px;
-  margin-bottom: 70px;
-  display: flex;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  background-color: #101010;
+  color: white;
   justify-content: center;
+  align-items: center;
   .body{
       max-width: 1400px;
       display: flex;
@@ -21,34 +38,21 @@
               }
               .mask{
                   position: relative;
+                  font-size: 1em;
+                  opacity: 0;
                   overflow: hidden;
+              }
+              .submask{
+                  position: relative;
+                  opacity: 0;
+                  overflow: hidden;
+                  font-size: 0.6em;
               }
           }
           &:nth-of-type(2){
               font-size: 18px;
               width: 80%;
               font-weight: 300;
-          }
-      }
-      .button{
-          top: 80%;
-          left: calc(100% - 200px); 
-          width: 180px;
-          height: 180px;
-          background-color: #1C1D20;
-          color: white;
-          border-radius: 50%;
-          position: absolute;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          cursor: pointer;
-          p{
-              margin: 0px;
-              font-size: 16px;
-              font-weight: 300;
-              position: relative;
-              z-index: 1;
           }
       }
   }

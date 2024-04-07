@@ -1,5 +1,5 @@
 "use client";
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 import { useState, useEffect } from "react";
 import Project from "../components/Project";
 import Landing from "../components/Landing";
@@ -13,27 +13,27 @@ import Preloader from "../components/Preloader";
 const projects = [
   {
     title: "TBH-Chatbot Web App",
-    subtitle: "University Senior Project",
+    subtitle: "Sophomore Year Senior Project",
     src: "lucy.png",
     color: "#000000",
   },
   {
     title: "TutorPlus Mobile App",
-    subtitle: "University D*Code Project",
+    subtitle: "University D*Code Club Project",
     src: "police.jpg",
     color: "#EFE8D3",
   },
   {
-    title: "Fullstack E-Commerce ",
-    subtitle: "First Summer Web Project",
-    src: "rebec.jpg",
-    color: "#8C8C8C",
-  },
-  {
     title: "Lynnime AnimeList",
-    subtitle: "First Android Application",
+    subtitle: "First Kotlin Android Application",
     src: "moon.png",
     color: "#706D63",
+  },
+  {
+    title: "Fullstack E-Commerce ",
+    subtitle: "Junior Year Summer Web Project",
+    src: "rebec.jpg",
+    color: "#8C8C8C",
   },
 ];
 
@@ -65,6 +65,12 @@ export default function Home() {
       </AnimatePresence>
       <Landing />
       <Description />
+
+      <div className={styles.about}>
+        <div>
+          <h1>Check out my latest projects.</h1>
+        </div>
+      </div>
       <main className={styles.main}>
         <div className={styles.body}>
           {projects.map((project, index) => {

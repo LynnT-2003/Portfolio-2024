@@ -41,42 +41,6 @@ export default function Home() {
     xPercent += 0.075 * direction;
   };
 
-  const projects = [
-    {
-      title: "C2 Montreal",
-
-      src: "c2montreal.png",
-
-      color: "#000000",
-    },
-
-    {
-      title: "Office Studio",
-
-      src: "officestudio.png",
-
-      color: "#8C8C8C",
-    },
-
-    {
-      title: "Locomotive",
-
-      src: "locomotive.png",
-
-      color: "#EFE8D3",
-    },
-
-    {
-      title: "Silencio",
-
-      src: "silencio.png",
-
-      color: "#706D63",
-    },
-  ];
-
-  const [modal, setModal] = useState({ active: false, index: 0 });
-
   return (
     <>
       <main className={styles.main}>
@@ -86,19 +50,6 @@ export default function Home() {
             <p ref={firstText}>Lynn Thit Nyi Nyi -</p>
             <p ref={secondText}>Lynn Thit Nyi Nyi -</p>
           </div>
-        </div>
-
-        <div className={styles.body}>
-          {projects.map((project, index) => {
-            return (
-              <Project
-                index={index}
-                title={project.title}
-                setModal={setModal}
-                key={index}
-              />
-            );
-          })}
         </div>
       </main>
     </>

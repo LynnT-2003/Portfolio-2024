@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.0",
     "framer-motion": "^10.16.14",
     "gsap": "^3.12.5",
     "install": "^0.13.0",

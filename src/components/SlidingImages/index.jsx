@@ -5,15 +5,15 @@ import Image from "next/image";
 
 const slider1 = [
   {
-    color: "#e3e5e7",
+    color: "#141516",
     src: "rebeccadavid.gif",
   },
   {
-    color: "#d6d7dc",
+    color: "#141516",
     src: "lucyeyes.gif",
   },
   {
-    color: "#e3e3e3",
+    color: "#141516",
     src: "gif1.gif",
   },
   {
@@ -24,19 +24,19 @@ const slider1 = [
 
 const slider2 = [
   {
-    color: "#d4e3ec",
+    color: "#141516",
     src: "rebecca.gif",
   },
   {
-    color: "#e5e0e1",
+    color: "#141516",
     src: "rd.gif",
   },
   {
-    color: "#d7d4cf",
+    color: "#141516",
     src: "lucyeyes2.gif",
   },
   {
-    color: "#e1dad6",
+    color: "#141516",
     src: "adamsmash.gif",
   },
 ];

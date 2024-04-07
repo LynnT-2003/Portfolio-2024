@@ -4,7 +4,8 @@
   gap: 3vw;
   position: relative;
   margin-top: 75px;
-  background-color: white;
+  padding-top: 75px;
+  background-color: #101010;
   z-index: 1;
   .slider{
       display: flex;
@@ -36,10 +37,10 @@
           width: 120%;
           left: -10%;
           border-radius: 0 0 50% 50%;
-          background-color: white;
+          background-color: #101010;
           z-index: 1;
           position: absolute;
-          box-shadow: 0px 60px 50px rgba(0, 0, 0, 0.748);
+          box-shadow: 0px 6px 5px white;
       }
   }
 }

@@ -51,7 +51,7 @@ export default function index() {
             <p>lnyinyi22@gmail.com</p>
           </div>
           <div className={styles.button}>
-            <p>+66 900 947 427</p>
+            <p>+66 650 411 140</p>
           </div>
         </div>
         <div className={styles.info}>
